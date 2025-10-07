@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/auth";
+const API_URL = "http://localhost:5000/routes/auth";
 
 const Auth = ({ setToken }) => {
   const [isLogin, setIsLogin] = useState(true); // toggle form
